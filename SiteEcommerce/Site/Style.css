@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Open+Sans&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+body{
+    margin:0px;
+    padding: 0px;
+}
+/* -----------Debut Nav---------- */
+nav{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+nav h1{
+    font-family: 'Kanit', 'sans empattement';
+    margin-left: 30px;
+    font-size: 30px;
+}
+.Onglets{
+    font-family: Arial, 'Open-Sans';
+    display: flex;
+    align-items: center;
+}
+.Onglets p{
+    margin: 10px;
+    cursor:pointer;
+}
+.Onglets input{
+    background-color: rgb(197, 197, 197);
+    border: 2px #000 solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+/* -----------Fin Nav---------- */
+
+/* -- ------Debut Header -------- */
+header{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    /* background-color: azure; */
+}
+
+header h1{
+    padding-top: 70px;
+    font-size: 35px;
+}
+
+header button{
+    margin-top: 20px;
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+}
+/* -- ------fin Header -------- */
+
+/* -- ----------Debut section ------- -- */
+.Images{
+    /* background-color:bisque; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+
+}
+.Images img{
+    height: 550px;
+    border-radius: 10px;
+    border: 2px rgb(234, 234, 234) solid;
+    cursor: pointer;
+}
+.Titre{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+}
+/* -- ----------Fin section ------- -- */
+
+/* -------------Debut section video ---- */
+.Video{
+    justify-content: center;
+    display: flex;
+    padding-top:100px;
+    /* background-color: aqua; */
+}
+.Video iframe{
+    width: 97%;
+    border:none;
+    border-radius: 10px;
+}
+/* -------Fin section video ------ */
+
+/* ------- Debut Footer-------- */
+footer{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+}
+.Suivez-nous{
+    display: flex;
+    align-items: center;
+}
+.Suivez-nous p{
+    margin: 5px;
+}
+/* ------- Fin Footer  ---------*/
